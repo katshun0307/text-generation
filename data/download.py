@@ -51,7 +51,6 @@ class DataGetter:
         # with open('data.pkl', 'wb') as f:
         #     pkl.dump(save_data, f)
         # print("save success")
-        print("data ready")
 
         self.x = x
         self.y = y
@@ -59,6 +58,7 @@ class DataGetter:
         self.chars = chars
         self.char_indices = char_indices
 
+        print("data ready")
 
 
 if __name__ == '__main__':
